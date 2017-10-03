@@ -1,0 +1,231 @@
+body{background-image:url("image/fon.png"); 
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    font-size:1.2em;
+}
+
+#header{height: 400px;
+    background-image: url("image/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.text{float: left;
+}
+.logo{float: right;
+    height: auto;
+    margin:auto;
+    padding-top: 50px;
+}
+h3{color: white
+}
+
+.bigwhitetext{color: white;
+    font-size: 3.7em;
+    padding-top: 80px;
+    font-family: impact, sans-serif;
+}
+
+.whitetext{color: white;
+    font-size: 2.5em;
+}
+
+.zagolovki{font-size: 3em;
+    color: black;
+}
+
+.bordiv{font-size: 1.2em;
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.bigpalesimg{background-image: url("image/bigpales.png");
+    height: 350px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+}
+
+#prices>table,th,td{border: 1px solid black;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.pricestable{width: 600px;
+    height: auto;
+    font-size: 1.2em;
+}
+
+.text-left{text-align: left;
+    padding-left: 5px;
+}
+
+b{color:blue;
+}
+
+.zakaz{margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#moika+:checked ~ #tip_auto { display: none; 
+}
+#moika:checked ~ #tip_auto1 { display: none; 
+}
+#result{font-size:2em;
+}
+
+.capcha>td{border:none;
+    text-align:left;
+}
+
+button{border-radius: 10px;
+    font-size: 1.5em;
+}
+
+footer {color:white;
+    background-color: black;
+    padding: 25px;
+    margin-top: 5px;
+}
+
+footer>p{font-size: 1.2em;
+}
+
+.vk{margin:auto;
+}
+#vk_groups{margin:auto;
+}
+  
+  
+  /* медиа запросы для уменьшенных девайсов */
+    @media (min-width: 800px) and (max-width: 1024px){
+        .bigwhitetext{font-size: 2.5em;
+            padding-top: 80px;
+        }
+        .whitetext{font-size: 2em;
+
+        }
+        .tel{font-size: 1.5em;
+        }
+        .logo{width: 350px;
+            padding-top: 80px;
+        }
+        
+
+    }
+  
+    @media (max-width: 800px){
+       .bigwhitetext{font-size: 2em;
+        padding-top: 100px;
+        }
+        .whitetext{font-size: 1.2em;
+
+        }
+        .tel{font-size: 1.2em;
+        }
+        .logo{width: 300px;
+            padding-top: 100px;
+        }
+         
+        .vk_us{width:150px;
+        } 
+        
+    }
+  
+    @media (max-width: 640px) {
+        .bigwhitetext{font-size: 1.5em;
+            padding-top: 120px;
+        }
+
+        .whitetext{font-size: 1em;
+        }
+        .tel{font-size: 1em;
+        }
+        .logo{width: 200px;
+            padding-top: 140px;
+        }
+
+
+        .zagolovki{font-size: 2.3em;
+        }
+
+        .bigpalesimg{background-image: url("image/bigpales-1.png");
+            height: 250px;
+            width:300px;
+        }
+
+        #sxema>img{height: auto;
+            width: 350px;
+        }
+
+        .pricestable{width:400px;
+            height: auto;
+            font-size: 1em;
+        }
+        
+        form{font-size:0.8em;
+        }
+        
+        label>.glyphicon{display:none;
+        }
+        
+    }
+    
+
+    @media (min-width: 320px) and (max-width: 480px){
+        #header{height: 510px;
+        }
+        .text{margin:auto;
+            float: none;
+        }
+        .bigwhitetext{font-size: 2.5em;
+            padding-top: 50px;
+        }
+
+        .whitetext{font-size: 1.3em;
+        }
+        .tel{font-size: 1.3em;
+        }
+        .logo{width: 230px;
+            margin: auto;
+            float: none;
+            padding-top:0px;
+        }
+        .zagolovki{font-size: 2em;
+        }
+        #sxema>img{height: auto;
+            width: 250px;
+        }
+        .pricestable{width:200px;
+            height: auto;
+            font-size: 1em;
+        }
+        form{font-size:0.8em;
+        }
+        label>.glyphicon{display:none;
+        }
+        
+    } 
+
+
+   

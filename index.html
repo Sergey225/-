@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Мобильная автомойка Вологда</title>
+  <meta charset="utf-8">
+  <meta name="yandex-verification" content="2745801ad0c483b6" />
+  <meta name="google-site-verification" content="wXQbwRFopUTaicd2KFVD3Td6xjFkOrTIcF_cadwKlVw" />
+  <meta name="description" content="Мобильная мойка автомобиля в Вологде">
+  <meta name="keywords" content="мобильная автомойка Вологда,мобильная мойка, сухая мойка, сухая мойка в Вологде, сухая мойка автомобиля в Вологде, сухая мойка Вологда, мобмойка, мобмойка35, сухая мобильная мойка без воды">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="sortcut icon" href="image/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<!--переход скролл по селекию -->
+<body data-spy="scroll" data-target="#navbar-example">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" align="center">
+      <ul class="nav navbar-nav" id="navbar-example">
+        <li><a href="#">Мобильная автомойка Вологда</a></li>
+        <!--переход скролл по селекцию -->
+        <li class="nav nav-stacked" data-offset-top="120" ><a href="#selection1">Цены</a></li>
+         <li>
+            <a class="vk_us">
+            <script type="text/javascript" src="//vk.com/js/api/openapi.js?122"></script>
+
+            <!-- VK Widget -->
+            <div id="vk_contact_us"></div>
+            <script type="text/javascript">
+            VK.Widgets.ContactUs("vk_contact_us", {text: "Подписаться"}, -83084706);
+            </script>
+            </a>
+        </li>       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Отправить заявку</h4>
+      </div>
+      <div class="modal-body">
+        
+    <form class="form-horizontal" role="form" method="post" action="form.php" onchange="onchangeForm()">
+        <div class="form-group">
+            <label class="col-sm-3 control-label"><span class="glyphicon glyphicon-user"></span> Имя</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" name="user" value="" maxlength=30>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"><span class="glyphicon glyphicon-earphone"></span> Ваш телефон</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" name="tel" value="" maxlength=30>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"><span class="glyphicon glyphicon-home"></span> Ваш адрес</label>
+            <div class="col-sm-8">
+                <input class="form-control" type="text" name="address" value="" maxlength=100>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"><span class="glyphicon glyphicon-barcode"></span> Номер автомобиля</label>
+            <div class="col-sm-8">
+                <input class="form-control" type="text" name="auto" value="" maxlength=10>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"><span class="glyphicon glyphicon-screenshot"></span> Уточнение места автомобиля</label>
+            <div class="col-sm-8">
+                <textarea class="form-control" name="auto_mess"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"><span class="glyphicon glyphicon-th-list"></span> Тип мойки и тип автомобиля</label>
+            <div class="col-sm-8">
+                <div>
+              мойка <input type="radio" id="moika" checked="checked" name="raz15" value="мойка">
+              мойка+ <input type="radio" id="moika+" name="raz15" value="мойка+">
+            
+            <select id="tip_auto" name="tip_auto">
+            <option value="300 руб. Эконом-класс">Эконом-класс</option>
+            <option value="400 руб. Бизнес-класс">Бизнес-класс</option>
+            <option value="500 руб. Внкдорожник">Внедорожник</option>
+            </select>
+            <select id="tip_auto1" name="tip_auto">
+            <option value="400 руб. Эконом-класс">Эконом-класс</option>
+            <option value="500 руб. Бизнес-класс">Бизнес-класс</option>
+            <option value="600 руб. Внедорожник">Внедорожник</option>
+            </select>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"><span class="glyphicon glyphicon-time"></span> Удобное время:</label>
+            <div class="col-sm-8">
+                С <select name="time1"><option value="08:00">08:00</option>
+                          <option value="09:00">09:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                          <option value="13:00">13:00</option>
+                          <option value="14:00">14:00</option>
+                          <option value="15:00">15:00</option>
+                          <option value="16:00">16:00</option>
+                          <option value="17:00">17:00</option>
+                          <option value="18:00">18:00</option>
+                          <option value="19:00">19:00</option>
+                          <option value="20:00">20:00</option>
+                          <option value="21:00">21:00</option>
+                          <option value="22:00">22:00</option>
+                          <option value="23:00">23:00</option>
+                          <option value="00:00">00:00</option>
+                          <option value="01:00">01:00</option>
+                          <option value="02:00">02:00</option>
+                          <option value="03:00">03:00</option>
+                          <option value="04:00">05:00</option>
+                          <option value="06:00">06:00</option>
+                          <option value="07:00">07:00</option>
+                </select>
+                До <select name="time2"><option value="9:00">9:00</option>
+                          <option value="10:00">10:00</option>
+                          <option value="11:00">11:00</option>
+                          <option value="12:00">12:00</option>
+                          <option value="13:00">13:00</option>
+                          <option value="14:00">14:00</option>
+                          <option value="15:00">15:00</option>
+                          <option value="16:00">16:00</option>
+                          <option value="17:00">17:00</option>
+                          <option value="18:00">18:00</option>
+                          <option value="19:00">19:00</option>
+                          <option value="20:00">20:00</option>
+                          <option value="21:00">21:00</option>
+                          <option value="22:00">22:00</option>
+                          <option value="23:00">23:00</option>
+                          <option value="00:00">00:00</option>
+                          <option value="01:00">01:00</option>
+                          <option value="02:00">02:00</option>
+                          <option value="03:00">03:00</option>
+                          <option value="04:00">05:00</option>
+                          <option value="06:00">06:00</option>
+                          <option value="07:00">07:00</option>
+                          <option value="08:00">08:00</option>
+                </select>
+                <select name="time3"><option value="Сегодня">Сегодня</option>
+                      <option value="Завтра">Завтра</option>
+                </select>
+            </div>
+        </div>    
+        <div class="form-group">
+            <label class="col-sm-3 control-label"> Итого к оплате:</label>
+            <div class="col-sm-8">
+                <output id="result">300</output>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label"> Введите капчу:</label>
+            <div class="col-sm-8">
+                <img src="captcha.php" width="120" height="20" /> <input type="text" name="capcha" />
+            </div>
+        </div>
+        
+      <p>* Стоимость мойки после 20:00 увеличивается на 300 руб.</p>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <input type="submit" class="btn btn-primary" name="submit" value="Заказать" onclick="click">
+       </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="header" class="col-md-12 text-center">
+  <div class="text">
+  <h2 class="bigwhitetext">Мобильная автомойка</h2>
+  <h3 class="whitetext">Вологда</h3>
+  <h3 class="tel"><span class="glyphicon glyphicon-earphone"></span> +79005588243</h3>
+  <div class="zakaz"><button class="btn btn-primary" data-toggle="modal" data-target="#form">Записаться на мойку</button>
+  </div>
+</div>
+<div>
+  <img class="logo" src="image/logo.png" alt="Результат сухой мойки машины до и после.">
+  </div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+  <center><h3 class="zagolovki">Ваши преимущества</h3></center>
+  
+  <div class="col-md-4">
+    <div class="bordiv">
+      <p><span class="glyphicon glyphicon-ok btn-success"></span> Вы не теряете свое время</p>
+    </div>
+    <div class="bordiv">
+      <p><span class="glyphicon glyphicon-ok btn-success"></span> Экономия топлива</p>
+    </div>
+    <div class="bordiv">
+      <p><span class="glyphicon glyphicon-ok btn-success"></span> Мойка в любом, удобном для Вас, месте</p>
+    </div>
+  </div>
+
+  <div id="bigpales" class="col-md-4">
+  <div class="bigpalesimg"></div>
+    <div class="zakaz"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#form">Записаться на мойку</button>
+    </div>
+  </div>
+<br />
+  <div class="col-md-4">
+    <div class="bordiv">
+      <p><span class="glyphicon glyphicon-ok btn-success"></span> После мойки не остается разводов и подтеков</p>
+    </div>
+    <div class="bordiv">
+      <p><span class="glyphicon glyphicon-ok btn-success"></span> Сухая мойка не оставляет царапин</p>
+    </div>
+    <div class="bordiv">
+      <p><span class="glyphicon glyphicon-ok btn-success"></span> Защита лакокрасочного покрытия</p>
+    </div>
+  </div>
+</div>
+</div>
+
+  
+<div id="sxema" class="col-md-12 text-center">
+    <h3 class="zagolovki">Схема работы</h3><br>
+    <img src="image/sxema.png" width="600" alt="Схема работы.">
+</div>
+
+<div id="prices" class="container-fluid text-center">
+  <h3  id="selection1" class="zagolovki">Цены</h3>
+  <table class="pricestable">
+    <tr>
+      <th></th>
+      <th>Эконом-класс</th>
+      <th>Бизнес-класс</th>
+      <th>Внедорожники</th>
+    </tr>
+    <tr>
+      <td class="text-left">Мойка<br />
+      + 100р пылесос
+      </td>
+      <td>300</td>
+      <td>400</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td class="text-left">Мойка +<br />
+        - мойка ковриков<br />
+        - мойка порогов<br />
+        <b>мойка стёкол в подарок</b><br />
+        + 70р пылесос
+      </td>
+      <td>400</td>
+      <td>500</td>
+      <td>600</td>
+    </tr>
+  </table>
+  <div class="zakaz"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#form">Записаться на мойку</button>
+  </div>
+</div>
+
+
+
+<!--расчет цены в форме-->
+<script type="text/javascript">
+function onchangeForm(){
+
+if (document.getElementById('moika').checked)
+     var total = document.getElementById('tip_auto').options[document.getElementById('tip_auto').selectedIndex].value;
+
+if (document.getElementById('moika+').checked)
+     var total = document.getElementById('tip_auto1').options[document.getElementById('tip_auto1').selectedIndex].value;
+
+document.getElementById('result').innerHTML = parseFloat(total);
+}
+</script>
+
+
+<footer class="container-fluid text-center">
+  <p>Мобильная автомойка<br />
+  Вологда</p>
+    <hr>
+    <div class="vk">
+    <p>Более подробную информацию вы можете посмотреть в нашей группе</p>
+    <div>
+        <span class="glyphicon glyphicon-arrow-down"></span>
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?122"></script>
+    <!-- VK Widget -->
+    <div id="vk_groups"></div>
+    <script type="text/javascript">
+    VK.Widgets.Group("vk_groups", {mode: 1, width: "200", height: "400", color1: 'FFFFFF', color2: '2B2F33', color3: '6287AE'}, 83084706);
+    </script>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>
